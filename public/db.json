@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1",
+        "name": "The Bookstore",
+        "author": "Luan Joan",
+        "price": 223,
+        "img": "https://media.istockphoto.com/id/1174064129/es/foto/libro-abierto-aislado-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=uVV2_Rq7PcgsyVbAC45kjDv63f5SLuRbz3dzP9kMQ0A=",
+        "quanty": 1
+    },
+    {
+        "id": "2",
+        "name": "Hooked",
+        "author": "Hook Bryan",
+        "price": 16,
+        "img": "https://media.istockphoto.com/id/1466757872/es/foto/libros-de-tapa-dura-y-libro-electr%C3%B3nico-moderno-sobre-la-mesa-en-la-biblioteca.jpg?s=612x612&w=0&k=20&c=oeDmAk53GKF907Cmqre5rotrMnNlcPuvdH3X4o1fThE=",
+        "quanty": 1
+    },
+    {
+        "id": "3",
+        "name": "The passion",
+        "author": "Ana Ghilman",
+        "price": 120,
+        "img": "https://cdn.pixabay.com/photo/2018/03/19/18/20/tea-time-3240766_1280.jpg",
+        "quanty": 1
+    },
+    {
+        "id": "4",
+        "name": "Ea Beautiful",
+        "author": "Nora Spencer",
+        "price": 234,
+        "img": "https://cdn.pixabay.com/photo/2016/02/11/15/32/skull-1193784_640.jpg",
+        "quanty": 1
+    },
+    {
+        "id": "5",
+        "name": "Yor Soul",
+        "author": "The river",
+        "price": 98,
+        "img": "https://cdn.pixabay.com/photo/2014/02/01/17/28/apple-256263_640.jpg",
+        "quanty": 1
+    },
+
+    {
+        "id": "6",
+        "name": "The clean code",
+        "author": "Thomsom",
+        "price": 190,
+        "img": "https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_640.jpg",
+        "quanty": 1
+    }
+]

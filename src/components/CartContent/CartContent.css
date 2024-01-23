@@ -1,0 +1,39 @@
+.cardContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap: 16px;
+}
+
+.elements-title{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cartContent > img {
+    text-align: center;
+}
+
+.cartTotal{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.counter-button {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cart-delete-button{
+    cursor: pointer;
+}
+
+.no-products{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 600;
+}
