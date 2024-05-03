@@ -6,8 +6,13 @@ import axios from "axios";
 export const BookContext = createContext();
 
 const BookProvider = ({ children }) => {
+  const savedCart = JSON.parse(localStorage.getItem("cart")) || []
   const [data, setData] = useState([]);
-  const [cart, setCart] = useState([]);
+  const [cart, setCart] = useState(savedCart);
+
+  useEffect(()=>{
+    localStorage.setItem("cart", JSON.stringify(cart))
+  }, [cart])
 
   useEffect(() => {
     axios.get("db.json").then((res) => setData(res.data));
